@@ -149,11 +149,13 @@ You get a secret code, and you can delete the alias with this.
 ## Enpoints:
 
 `/a/:alias`
+
 Searching the alias in database, and if it exists, the app redirect to the URL what belongs to this alias.
 
 If alias does not exist, the application indacates this to the user.
 
 `/remove/:alias/:secretCode`
+
 You need the alias and its secret code to remove an alias. 
 
 If alias exists and the code is correct, the application removes the alias from the cloud.

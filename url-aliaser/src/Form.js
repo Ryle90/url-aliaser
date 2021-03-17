@@ -130,7 +130,7 @@ export default function Form () {
     }
 
     return (
-        <div>
+        <div className="container">
             <h1>URL aliaser</h1>
             <form noValidate onSubmit={handleSubmitForm} action="">
                 <div className="mb-3">

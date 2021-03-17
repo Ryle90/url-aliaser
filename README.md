@@ -130,15 +130,17 @@ WARNING: it can be dangorous, to know more about permission read the Firebase do
 
 ### 9: Enable Anonymus authentication:
 
-Go to `Athentication`
-`Get started`
-`Sign-in method`
+Go to `Athentication` ->
+`Get started` ->
+`Sign-in method`.
+
 Set Anonymus from disabled to enabled
 
 ### Enjoy the app
 
 # How it works:
 Language of application: Hungarian.
+
 You can save url-s and aliases in to the `Cloud Firestore`. 
 Give a valid url and its alias and save them the cloud.
 One alias may included in the database only one (controlled by application).
@@ -148,8 +150,10 @@ You get a secret code, and you can delete the alias with this.
 
 `/a/:alias`
 Searching the alias in database, and if it exists, the app redirect to the URL what belongs to this alias.
+
 If alias does not exist, the application indacates this to the user.
 
 `/remove/:alias/:secretCode`
 You need the alias and its secret code to remove an alias. 
+
 If alias exists and the code is correct, the application removes the alias from the cloud.

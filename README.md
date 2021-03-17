@@ -126,7 +126,7 @@ Create a fake document with id (you can delete it later).
 ### 8: Set rules:
 
 Select `Rules` and change this row: `allow read, write: if false` to this `allow read, write: if true`.\
-WARNING: it can be dangorous, to know more about permission read the Firebase documentation: https://firebase.google.com/docs/firestore
+WARNING: it can be dangerous, to know more about permission read the Firebase documentation: https://firebase.google.com/docs/firestore
 
 ### 9: Enable Anonymus authentication:
 
@@ -139,9 +139,9 @@ Set Anonymus from disabled to enabled
 
 ## How it works:
 Language of application: Hungarian.\
-You can save url-s and aliases in to the Cloud Firestore.
-Give a valid `url` and its `alias` and save them the cloud.
-One alias may included in the database only one (controlled by application).
+You can save url-s and aliases into the Cloud Firestore.
+Give a valid `url` and its `alias` and save them into the cloud.
+One alias may be included in the database only one (controlled by application).
 You get a `secret code`, and you can delete the alias with this.
 
 ## Enpoints:

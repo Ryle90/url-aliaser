@@ -78,7 +78,7 @@ To use this application, you need Firabase account.
 
 ### 1: Add firebase file:
 
-Add firebase.js to src and copy this code into the file:
+Add `firebase.js` to `src` folder and copy this code into the file:
 
     import firebase from "firebase/app";
     import "firebase/auth";

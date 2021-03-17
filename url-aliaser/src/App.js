@@ -7,6 +7,7 @@ import {
 
 import Form from './Form';
 import Redirect from './Redirect';
+import Delete from './Delete'
 
 function App() {
   return (
@@ -14,6 +15,9 @@ function App() {
       <Switch>
         <Route path="/a">
           <Redirect/>
+        </Route>
+        <Route path="/remove">
+          <Delete/>
         </Route>
         <Route path="/">
           <Form />

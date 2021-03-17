@@ -103,7 +103,7 @@ Add `firebase.js` to `src` folder and copy this code into the file:
 `Add project` in Firebase website.\
 Type a project name and clik `continue`.\
 Decide you need Google Analytics or not.\
-Click to `Create project` and wait...\
+Click to `Create project` and wait...
 
 ### 3: Get started by adding Firebase to your app:
 
@@ -133,7 +133,6 @@ WARNING: it can be dangorous, to know more about permission read the Firebase do
 Go to `Athentication` ->
 `Get started` ->
 `Sign-in method`.\
-
 Set Anonymus from disabled to enabled
 
 ### Enjoy the app

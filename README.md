@@ -79,23 +79,24 @@ To use this application, you need Firabase account.
 ### 1: Add firebase file:
 
 Add firebase.js to src and copy this code into the file:
-import firebase from "firebase/app";
-import "firebase/auth";
-import '@firebase/firestore'
 
-    const app = firebase.initializeApp({
-        apiKey: "own key",
-        authDomain: "own domain",
-        projectId: "own id",
-        storageBucket: "own data",
-        messagingSenderId: "own id",
-        appId: "own id"
-    });
+    import firebase from "firebase/app";
+    import "firebase/auth";
+    import '@firebase/firestore'
+
+        const app = firebase.initializeApp({
+            apiKey: "own key",
+            authDomain: "own domain",
+            projectId: "own id",
+            storageBucket: "own data",
+            messagingSenderId: "own id",
+            appId: "own id"
+        });
 
 
-export const auth = app.auth();
-export const db = firebase.firestore();
-export default app
+    export const auth = app.auth();
+    export const db = firebase.firestore();
+    export default app
 
 ### 2: Create a new Firebase project:
 

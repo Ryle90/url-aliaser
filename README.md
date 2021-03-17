@@ -101,7 +101,7 @@ Add `firebase.js` to `src` folder and copy this code into the file:
 ### 2: Create a new Firebase project:
 
 `Add project` in Firebase website.\
-Type a project name and clik `continue`.\
+Type a project name and click `continue`.\
 Decide you need Google Analytics or not.\
 Click to `Create project` and wait...
 

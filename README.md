@@ -101,31 +101,31 @@ Add `firebase.js` to `src` folder and copy this code into the file:
 ### 2: Create a new Firebase project:
 
 `Add project` in Firebase website. 
-Type a project name and clik `continue`
-Decide you need Google Analytics or not
+Type a project name and clik `continue`.
+Decide you need Google Analytics or not.
 Click to `Create project` and wait...
 
 ### 3: Get started by adding Firebase to your app:
 
-Click `Web`
-And click
-Copy the datas from your `Firebase config` into `firebase.js` to config you app
+Click `Web`.
+And click again.
+Copy the datas from your `Firebase config` into `firebase.js` to config you app.
 
 ### 6: Create a new Cloud Firestore:
 
-Search `Cloud Firestore` in Firabase page and click
-Select `production` or `test` mode
-Select a server
+Search `Cloud Firestore` in Firabase page and click.
+Select `production` or `test` mode.
+Select a server.
 
 ### 7: Configure a new collection:
 
 Start collection:
-Give collection id: `aliases`
-Create a fake document with id (you can delete it later)
+Give collection id: `aliases`.
+Create a fake document with id (you can delete it later).
 
 ### 8: Set rules:
 
-Select `Rules` and change this row: `allow read, write: if false` to this `allow read, write: if true`
+Select `Rules` and change this row: `allow read, write: if false` to this `allow read, write: if true`.
 WARNING: it can be dangorous, to know more about permission read the Firebase documentation: https://firebase.google.com/docs/firestore
 
 ### 9: Enable Anonymus authentication:
